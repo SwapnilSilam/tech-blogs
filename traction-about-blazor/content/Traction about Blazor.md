@@ -21,9 +21,9 @@ This is an official definition on official site [WebAssembly](https://webassembl
 
 By WebAssembly you can run high-level languages in a browser by using its core speed. <br> WebAssembly is a milestone achievement in the tech world, using this we can run server-side development languages in the browser. <br>
 WebAssembly runs in the same security sandbox-like Angular, React and other JavaScript code runs. <br>
-Based on open web standards, WebAssembly is part of all modern web browsers, including mobile browsers. <br> With WebAssembly, not just C# but we can run all server-side programming languages. <br><br>
+Based on open web standards, WebAssembly is part of all modern web browsers, including mobile browsers. <br> With WebAssembly, not just C# but we can run all server-side programming languages. 
 
-***Here, you might think, it's a Microsoft selling Silverlight in a new package?*** 
+***Here, you might think, it's a Microsoft selling Silverlight in a new package?*** <br>
 The answer is **BIG NO!!**, because as *Silverlight* you need to install a separate plug-in and run time as part of running the program in the browser.
 WebAssembly is part of all Modern browsers and there is no need to install external plug-ins to install.
 
