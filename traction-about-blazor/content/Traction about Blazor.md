@@ -9,7 +9,7 @@ Nowadays "Blazor" word is getting more traction and attraction by programmers’
 Yes, you heard and read correctly!! .Net running in the browser. 
 A question would come how is it even possible? But yes, this is possible using WebAssembly.
 
-## WebAssembly <a name="WebAssembly"></a>
+### **WebAssembly** <a name="WebAssembly"></a>
 
 Before we start with Blazor, let’s understand what is WebAssembly or wasm.
 
@@ -23,14 +23,14 @@ By WebAssembly you can run high-level languages in a browser by using its core s
 WebAssembly runs in the same security sandbox-like Angular, React and other JavaScript code runs. <br>
 Based on open web standards, WebAssembly is part of all modern web browsers, including mobile browsers. <br> With WebAssembly, not just C# but we can run all server-side programming languages. <br><br>
 
-***Here, you might think, it's a Microsoft selling Silverlight in a new package?*** <br><br>
+***Here, you might think, it's a Microsoft selling Silverlight in a new package?*** 
 The answer is **BIG NO!!**, because as *Silverlight* you need to install a separate plug-in and run time as part of running the program in the browser.
 WebAssembly is part of all Modern browsers and there is no need to install external plug-ins to install.
 
-## Why to learn and what are the benefits of "Blazor"? 
+### **Why to learn and what are the benefits of "Blazor"?** 
 
 Why do we need to learn Blazor?  Well, You got the answer off in the section of [WebAssembly](#WebAssembly). 
-### Let’s see some more details. 
+#### **Let’s see some more details.** 
 * Write C# instead of JavaScript
 * .Net developers can directly be onboarded to project without having any formal training on other technologies.
 * Leverage existing capabilities of C# and .net shared libraries
@@ -38,21 +38,20 @@ Why do we need to learn Blazor?  Well, You got the answer off in the section of 
 * It can be coded with Visual Studio which works across different platforms like Windows, Linux, and Mac. 
 * Build on a common set of languages, frameworks, and tools that are stable, feature-rich, and easy to use.
 
+#### **Let understand Blazor** 
 
-### **Let understand Blazor** 
+While learning new techs, always strikes questions, can't we learn server-side languages and use the same technology for a client as well? Until Blazor, the answer was Big No! But it's possible with Blazor.
+>Till now you have read the word **Blazor** more than 10 times and you might be thinking that why Blazor is called Blazor? <br>
+Blazor word formed by two words **"Browser" + "Razor" = "Blazor"**.
 
-While learning new techs, always strikes questions, can't we learn server-side languages and use the same technology for a client as well? Until Blazor, the answer was Big No! But it's possible with Blazor. <br><br>
->**Till now you have read the word **Blazor** more than 10 times and you might be thinking that why Blazor is called as Blazor?** <br><br>
-*Blazor word formed by two words **"Browser" + "Razor" = "Blazor"**.* <br> Blazor uses more Razor, it’s a markup syntax for HTML and C#. <br><br>
-
-## ***Welcome to Blazor!*** 
+### ***Welcome to Blazor!*** 
 **Blazor has two types of Hosting Models**
 1.	Blazor Web Assembly
 2.	Blazor Server 
 
 Let see one by one with its advantages and disadvantages. 
 
-## **Blazor WebAssembly**
+### **Blazor WebAssembly**
 
 It’s also called as **Client-side Hosting** Models.
 Blazor WebAssembly implements a Single-Page application framework for creating responsive and interactive web applications. As mentioned earlier, WebAssembly is based on Open Web Standards i.e. neither you need to install any plug-ins nor is any Code Transpiration needed for it. WebAssembly supports all modern browsers that including mobiles also. 
@@ -63,7 +62,7 @@ Wasm code can access the full features of the browser via JavaScript Interporabl
 
  ![Blazor_WebAssembly](https://raw.githubusercontent.com/SwapnilSilam/tech-blogs/master/traction-about-blazor/images/Blazor_WebAssembly.JPG "Blazor WebAssembly")
 
-### **Let's understand the underlying working of it.**
+#### **Let's understand the underlying working of it.**
 
 When we compile C# files and Razor files they get converted into .NET assemblies and those assemblies and .NET runtime are downloaded in the browser. Now Blazor WebAssembly kicks the .NET runtime and starts configuring the runtime to load all assemblies to run an app. 
 
@@ -83,7 +82,7 @@ When we compile C# files and Razor files they get converted into .NET assemblies
 >Note: Still this in preview state and if you want still try your hands with it. Install Blazor WebAssembly template from the Nuget server and after installation is complete, restart Visual Studio 2019.
 
 
-## **Blazor Server** 
+### **Blazor Server** 
 
 It is also is known as Server hosting model. Blazor server model decouples the UI rendering logic and logic on how to apply those. 
 Blazor application needs to be hosted as an Asp.Net Core app on a Server. Blazor server establishes a SignalR connection between client and server. 
@@ -112,7 +111,7 @@ Blazor though embraces the Single Page Architecture, it does not refresh the ent
 
 >Note: Scalability issues can overcome using the Azure Single R server.
 
-## **Blazor is Component-based, what does it mean?** 
+### **Blazor is Component-based, what does it mean?** 
 
 Blazor applications are component-based. A component in Blazor is UI elements such as Page, Dialog Box or user forms. Components are compiled .NET assemblies.
 
@@ -127,17 +126,17 @@ Components are represented into in-memory as the browser's DOM, so which is used
 * Also handles user events. 
 * These can be nested and reusable.
 
-## **Next big question can I use JavaScript while working with Blazor?** 
+### **Next big question can I use JavaScript while working with Blazor?** 
 #### Absolutely Yes!!! 
 
 JavaScript Interop, using this you can call JavaScript code by C# and C# code can be called by JavaScript. 
 
-## **Pre-requisites for Blazor**
+### **Pre-requisites for Blazor**
 * Visual Studio 2019 
 * .net core 3.0 and above
 * Knowledge about HTML, CSS, and C# 
 
-## **Browser Support chart**
+### **Browser Support chart**
 
 | Sr. No             | Chrome | Mozilla Firefox | Safari | Microsoft Edge | Microsoft Internet Explorer |
 |--------------------|--------|-----------------|--------|----------------|-----------------------------|
@@ -146,10 +145,8 @@ JavaScript Interop, using this you can call JavaScript code by C# and C# code ca
 
 > Note: Microsoft Internet Explorer does not support WebAssembly. 
 
-<br>
+##### **Do you think  Blazor will be a Game changer in Web Application Development ?** 
 
-### **Do you think  Blazor will be a Game changer in Web Application Development ?** 
-
-Please share your thoughts and valuable feedback!
+Please, share your thoughts and leave your valuable feedback!
 
 Happy Coding and stay connected!
