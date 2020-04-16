@@ -61,7 +61,7 @@ Running .Net inside a browser is only possible via WebAssembly (You will get mor
 
 Wasm code can access the full features of the browser via JavaScript Interporablilty or JavaScript Interop. We know that WebAssembly runs in a secure sandbox browser that protects from any malicious codes and actions being performed on the client-side.
 
- ![Blazor_WebAssembly](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Blazor WebAssembly")
+ ![Blazor_WebAssembly](https://github.com/SwapnilSilam/tech-blogs/blob/master/TractionAboutBlazor/images/Blazor_WebAssembly.JPG "Blazor WebAssembly")
 
 ### **Let's understand the underlying working of it.**
 
